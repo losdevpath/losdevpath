@@ -20,6 +20,9 @@ jobs:
         node-version: '14'
     - run: npm install
     - run: npm run update-readme
+      env:
+        INSTAGRAM_USER: ${{ secrets.INSTAGRAM_USER }}
+        INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
     - run: |
         git config user.name losdevpath
         git config user.email losdevpath@gmail.com
