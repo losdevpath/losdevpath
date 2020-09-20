@@ -2,3 +2,6 @@
 
 #### Últimos artículos en [losdev.es](https://losdev.es):
 {{article-list}}
+
+#### Últimas fotos en [instagram.com/losdeveloper](https://www.instagram.com/losdeveloper/):
+{{instagram-photos}}
