@@ -4,9 +4,7 @@ import fetch from "node-fetch";
 
 const parser = new Parser();
 
-const INSTAGRAM_REGEXP = new RegExp(
-	/<script type="text\/javascript">window\._sharedData = (.*);<\/script>/
-);
+const INSTAGRAM_REGEXP = new RegExp(/<script type="text\/javascript">window\._sharedData = (.*);<\/script>/);
 
 // Parse feed data
 const getArticles = () => 
@@ -58,5 +56,5 @@ const instagramHTML = ({ media_url, permalink }) => `
 
 	// Write file
 	await fs.writeFile("README.md", newData);
-	
+
 })();
