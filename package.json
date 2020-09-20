@@ -1,0 +1,31 @@
+{
+  "name": "losdevpath",
+  "version": "1.0.0",
+  "description": "GitHub profile.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "update-readme": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losdevpath/losdevpath.git"
+  },
+  "keywords": [
+    "readme",
+    "github profile",
+    "github readme"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/losdevpath/losdevpath/issues"
+  },
+  "homepage": "https://github.com/losdevpath/losdevpath#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "rss-parser": "^3.9.0"
+  }
+}
