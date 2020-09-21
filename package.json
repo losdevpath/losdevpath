@@ -25,6 +25,7 @@
   "homepage": "https://github.com/losdevpath/losdevpath#readme",
   "dependencies": {
     "fs": "0.0.1-security",
+    "node-instagram": "^4.3.0",
     "rss-parser": "^3.9.0"
   }
 }
